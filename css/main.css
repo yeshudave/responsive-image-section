@@ -12,3 +12,107 @@ html {
   box-sizing: border-box;
   font: normal 100%/1.3 sans-serif;
 }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #000;
+  background-color: #e2e2e2;
+  margin: 0;
+}
+
+a {
+  padding: .5em .75em;
+  border-radius: 4px;
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  background-color: #000;
+}
+
+section {
+  display: inline-block;
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 1rem;
+}
+
+div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.one {
+  padding: 1.5rem;
+}
+
+.par {
+  padding: 0 0 2rem;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+p {
+  text-align: left;
+  margin: 0;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .one {
+    width: 49%;
+  }
+
+  .two {
+    width: 49%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  .one {
+    width: 49%;
+  }
+
+}
