@@ -24,7 +24,7 @@ body {
 }
 
 a {
-  padding: .5em .75em;
+  padding: .7em .95em;
   border-radius: 4px;
   background-color: #555;
   color: white;
@@ -38,6 +38,7 @@ a:hover {
 
 section {
   display: inline-block;
+  padding: 0 0 2rem;
 }
 
 h1 {
@@ -51,7 +52,7 @@ div {
 }
 
 .one {
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .par {
@@ -85,6 +86,19 @@ p {
     line-height: 1.4;
   }
 
+  .one {
+    width: 49.5%;
+    padding: 1.2rem;
+  }
+
+  .two {
+    width: 49.5%;
+    margin: 1rem 0 0;
+  }
+
+  h1 {
+    padding: .75rem 0 1.5rem;
+  }
 
 }
 
@@ -97,10 +111,16 @@ p {
 
   .one {
     width: 49%;
+    padding: 1rem 1.25rem;
   }
 
   .two {
     width: 49%;
+    margin: 2rem 0 0;
+  }
+
+  h1 {
+    padding: 2rem 0 1.5rem;
   }
 
 }
@@ -113,6 +133,19 @@ p {
 
   .one {
     width: 49%;
+  }
+
+  .two {
+    width: 49%;
+    padding: 1rem;
+  }
+
+  section {
+    padding: 0;
+  }
+
+  .img-flex {
+    width: 75%;
   }
 
 }
